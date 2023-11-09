@@ -1,0 +1,103 @@
+
+body{
+    color: black; /*black*/
+    background-color: #A2A2A1FF; /**/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.layout{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.center-content{
+    margin-top: 200px;
+    margin-left: 60px;
+    transition: margin-left .3s ease-in-out;
+    position: relative;
+    padding: 1em;
+    min-height: 75vh;
+    text-align: center;
+}
+
+.center-content p, .content p{
+    font-size: 25px;
+    font-family: helvetica;
+}
+.content{
+    margin-top: 80px;
+    margin-left: 10px;
+    transition: margin-left .3s ease-in-out;
+    position: relative;
+    padding: 1em;
+    min-height: 75vh;
+    text-align: left;
+}
+
+
+.header{
+    height: 60px;
+    background: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+    filter: brightness(.8) contrast(1.2);
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+/*header droplist CSS*/
+ul li {
+    display: incline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+ul li ul.droplist li{
+    display: block;
+}
+
+ul li ul.droplist{
+    width: 250%;
+    background: #007bff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #112C66;
+}
+
+ul li:hover ul.droplist{
+    display: block;
+}
+
+/*End of droplist CSS*/
+
+div img {
+    width: 400px;
+    height: 100px;
+  }
+
+.auntext{
+    margin-top: 50px;
+}
+
+.auntext p{
+    font-size: 20px;
+    font-family: helvetica;
+}
